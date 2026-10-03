@@ -1,6 +1,19 @@
 const express = require("express");
 
 const app = express();
+const manifest = {
+  id: "community.xunlei.subtitle",
+  version: "1.0.0",
+  name: "迅雷看看字幕",
+  description: "基于迅雷看看接口的 Stremio 字幕插件",
+  logo: "https://www.xunlei.com/favicon.ico",
+  resources: ["subtitles"],
+  types: ["movie", "series"],
+  idPrefixes: ["tt"],
+  behaviorHints: {
+    configurable: false
+  }
+};
 const PORT = process.env.PORT || 7000;
 
 const API_BASE = "https://api-shoulei-ssl.xunlei.com";
