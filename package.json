@@ -1,0 +1,12 @@
+{
+  "name": "xunlei-stremio-subtitles",
+  "version": "1.0.0",
+  "description": "Stremio addon for Xunlei subtitle search",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
